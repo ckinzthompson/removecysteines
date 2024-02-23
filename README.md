@@ -29,3 +29,6 @@ optional arguments:
                         Maximum Number of Polishing Rounds
   -p PCA, --pca PCA     Show embedding PCA?
 ```
+
+## Example
+![](https://github.com/ckinzthompson/removecysteines/assets/17210418/51e16705-c925-4da5-b1ea-e21b24bba5a1)
