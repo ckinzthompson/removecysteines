@@ -7,13 +7,6 @@ Remove cysteines from a protein sequences using evolutionary scale modeling (ESM
 Make sure you select a (free) GPU instance, because it will be very slow on a CPU.
 
 
-<video src='https://github.com/ckinzthompson/removecysteines/assets/17210418/f33df108-f6b2-46e7-9440-7fcd13a955f3' width=100/>
-
-
-
-
-
-
 ## Run locally (Python)
 Requires either:
 1. A new Apple Silicon computer
