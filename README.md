@@ -2,7 +2,8 @@
 Remove cysteines from a protein sequences using evolutionary scale modeling (ESM) to account for conservation.
 
 ## Run on Google Colab 
-<a href="https://colab.research.google.com/github/ckinzthompson/removecysteines/blob/main/remove_cysteines.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://colab.research.google.com/github/ckinzthompson/removecysteines/blob/main/remove_cysteines.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> Make sure you select a (free) GPU instance, because it will be very slow on a CPU.
+<img width="586" alt="Screenshot 2024-02-23 at 6 00 39 PM" src="https://github.com/ckinzthompson/removecysteines/assets/17210418/ab73b583-5baa-4729-a4b8-6fc50d3fde63">
 
 ## Run locally (Python)
 Requires either:
