@@ -34,4 +34,4 @@ optional arguments:
 ```
 
 ## Example
-![](https://github.com/ckinzthompson/removecysteines/assets/17210418/51e16705-c925-4da5-b1ea-e21b24bba5a1)
+![](https://github.com/ckinzthompson/removecysteines/assets/17210418/f8b55fc1-6ae9-403a-911e-10a8aa207d5b)
