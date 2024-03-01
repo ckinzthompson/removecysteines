@@ -18,19 +18,21 @@ Steps:
 * Run from the terminal:
 
 ```bash
-> python remove_cysteines.py --help
-usage: remove_cysteines.py [-h] [-n N_ROUNDS] [-p PCA] sequence
+> python remove_cysteines.py
+usage: remove_cysteines.py [-h] [--n_rounds N_ROUNDS] [--model MODEL] [--device DEVICE] [--pca] sequence
 
-Remove Cysteines
+Remove Cysteines (v0.1.4). CKT Lab -- http://ckinzthompson.github.io
 
 positional arguments:
   sequence              WT protein sequence to alter
 
 optional arguments:
   -h, --help            show this help message and exit
-  -n N_ROUNDS, --n_rounds N_ROUNDS
-                        Maximum Number of Polishing Rounds
-  -p PCA, --pca PCA     Show embedding PCA?
+  --n_rounds N_ROUNDS   Maximum Number of Polishing Rounds
+  --model {esm2_t6_8M_UR50D,esm2_t12_35M_UR50D,esm2_t30_150M_UR50D,esm2_t33_650M_UR50D,esm2_t36_3B_UR50D,esm2_t48_15B_UR50D}
+                        Which ESM2 model to use?
+  --device {cuda,mps,cpu}    Which compute device?
+  --pca                 Show embedding PCA?
 ```
 
 ## Example
